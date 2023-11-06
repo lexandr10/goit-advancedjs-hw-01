@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-ec808ebb.js";/* empty css                      */import{P as o,l as r}from"./assets/vendor-d78ab9e0.js";const a="videoplayer-current-time",l=document.querySelector("#vimeo-player"),e=new o(l),n=function(t){localStorage.setItem(a,t.seconds)};e.on("timeupdate",r(n,1e3));e.setCurrentTime(JSON.parse(localStorage.getItem(VCT_KEY))||0);
+import"./assets/common-75a3e929.js";import{P as r,l as a}from"./assets/vendor-d78ab9e0.js";const e="videoplayer-current-time",l=document.querySelector("#vimeo-player"),t=new r(l),n=function(o){localStorage.setItem(e,o.seconds)};t.on("timeupdate",a(n,1e3));t.setCurrentTime(localStorage.getItem(e)||0);
 //# sourceMappingURL=commonHelpers2.js.map
