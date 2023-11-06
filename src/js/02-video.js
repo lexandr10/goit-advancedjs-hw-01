@@ -11,4 +11,4 @@ const onPlay = function (event) {
 
 player.on('timeupdate', throttle(onPlay, 1000));
 
-player.setCurrentTime(JSON.parse(localStorage.getItem(VCT_KEY)) || 0);
+player.setCurrentTime(localStorage.getItem(TIME) || 0);

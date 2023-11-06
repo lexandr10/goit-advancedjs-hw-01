@@ -2,8 +2,8 @@
 import { galleryItems } from './gallery-items';
 // Change code below this line
 import SimpleLightbox from 'simplelightbox';
-const imagesGallery = document.querySelector('.gallery');
 import 'simplelightbox/dist/simple-lightbox.min.css';
+const imagesGallery = document.querySelector('.gallery');
 function getItem(arr) {
   return arr
     .map(
@@ -22,3 +22,4 @@ let gallery = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+console.log(galleryItems);
